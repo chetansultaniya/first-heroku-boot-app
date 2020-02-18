@@ -36,6 +36,8 @@
   <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
   
+  <script type="text/javascript" src="${baseURL}/js/chatpage.js"></script>
+  
 
 </head>
 
