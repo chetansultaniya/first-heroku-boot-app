@@ -54,18 +54,18 @@
 </div>
 
 <!-- Bootstrap core JavaScript -->
-<script src="/template/vendor/jquery/jquery.min.js"></script>
-<script src="/template/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="${baseURL}/extlib/jquery.min.js"></script>
+<script src="${baseURL}/extlib/bootstrap.bundle.min.js"></script>
 
 <!-- Plugin JavaScript -->
-<script src="/template/vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="${baseURL}/extlib/jquery.easing.min.js"></script>
 
 <!-- Contact Form JavaScript -->
-<script src="/template/js/jqBootstrapValidation.js"></script>
-<script src="/template/js/contact_me.js"></script>
+<script src="${baseURL}/extlib/jqBootstrapValidation.js"></script>
+<script src="${baseURL}/extlib/contact_me.js"></script>
 
 <!-- Custom scripts for this template -->
-<script src="/template/js/freelancer.min.js"></script>
+<script src="${baseURL}/extlib/freelancer.min.js"></script>
 
 </body>
 

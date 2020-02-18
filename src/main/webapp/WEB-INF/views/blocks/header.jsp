@@ -14,12 +14,12 @@
   <title>ChetChat</title>
 
   <!-- Custom fonts for this theme -->
-  <link href="${baseURL}/template/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="${baseURL}/extlib/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- Theme CSS -->
-  <link href="${baseURL}/template/css/freelancer.min.css" rel="stylesheet">
+  <link href="${baseURL}/extlib/freelancer.min.css" rel="stylesheet">
   
   <!-- Files for Chat Page -->
   
@@ -32,10 +32,9 @@
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
   
-  <link href="${baseURL}/template/css/chatpage.css" rel="stylesheet">
+  <link href="${baseURL}/css/chatpage.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
-  <script type="text/javascript" src="${baseURL}/template/js/chatpage.js"></script>
   
 
 </head>

@@ -28,7 +28,7 @@
 							<i class="fas fa-plus fa-3x"></i>
 						</div>
 					</div>
-					<img class="img-fluid" src="template/img/portfolio/cabin.png"
+					<img class="img-fluid" src="${baseURL}/img/cabin.png"
 						alt="">
 				</div>
 			</div>
@@ -43,7 +43,7 @@
 							<i class="fas fa-plus fa-3x"></i>
 						</div>
 					</div>
-					<img class="img-fluid" src="template/img/portfolio/cake.png" alt="">
+					<img class="img-fluid" src="${baseURL}/img/cake.png" alt="">
 				</div>
 			</div>
 
@@ -57,7 +57,7 @@
 							<i class="fas fa-plus fa-3x"></i>
 						</div>
 					</div>
-					<img class="img-fluid" src="template/img/portfolio/circus.png"
+					<img class="img-fluid" src="${baseURL}/img/circus.png"
 						alt="">
 				</div>
 			</div>
@@ -72,7 +72,7 @@
 							<i class="fas fa-plus fa-3x"></i>
 						</div>
 					</div>
-					<img class="img-fluid" src="template/img/portfolio/game.png" alt="">
+					<img class="img-fluid" src="${baseURL}/img/game.png" alt="">
 				</div>
 			</div>
 
@@ -86,7 +86,7 @@
 							<i class="fas fa-plus fa-3x"></i>
 						</div>
 					</div>
-					<img class="img-fluid" src="template/img/portfolio/safe.png" alt="">
+					<img class="img-fluid" src="${baseURL}/img/safe.png" alt="">
 				</div>
 			</div>
 
@@ -100,7 +100,7 @@
 							<i class="fas fa-plus fa-3x"></i>
 						</div>
 					</div>
-					<img class="img-fluid" src="template/img/portfolio/submarine.png"
+					<img class="img-fluid" src="${baseURL}/img/submarine.png"
 						alt="">
 				</div>
 			</div>
@@ -142,7 +142,7 @@
 							</div>
 							<!-- Portfolio Modal - Image -->
 							<img class="img-fluid rounded mb-5"
-								src="template/img/portfolio/cabin.png" alt="">
+								src="${baseURL}/img/cabin.png" alt="">
 							<!-- Portfolio Modal - Text -->
 							<p class="mb-5">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Mollitia neque assumenda ipsam nihil,
@@ -189,7 +189,7 @@
 							</div>
 							<!-- Portfolio Modal - Image -->
 							<img class="img-fluid rounded mb-5"
-								src="template/img/portfolio/cake.png" alt="">
+								src="${baseURL}/img/cake.png" alt="">
 							<!-- Portfolio Modal - Text -->
 							<p class="mb-5">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Mollitia neque assumenda ipsam nihil,
@@ -236,7 +236,7 @@
 							</div>
 							<!-- Portfolio Modal - Image -->
 							<img class="img-fluid rounded mb-5"
-								src="template/img/portfolio/circus.png" alt="">
+								src="${baseURL}/img/circus.png" alt="">
 							<!-- Portfolio Modal - Text -->
 							<p class="mb-5">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Mollitia neque assumenda ipsam nihil,
@@ -282,7 +282,7 @@
 							</div>
 							<!-- Portfolio Modal - Image -->
 							<img class="img-fluid rounded mb-5"
-								src="template/img/portfolio/game.png" alt="">
+								src="${baseURL}/img/game.png" alt="">
 							<!-- Portfolio Modal - Text -->
 							<p class="mb-5">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Mollitia neque assumenda ipsam nihil,
@@ -329,7 +329,7 @@
 							</div>
 							<!-- Portfolio Modal - Image -->
 							<img class="img-fluid rounded mb-5"
-								src="template/img/portfolio/safe.png" alt="">
+								src="${baseURL}/img/safe.png" alt="">
 							<!-- Portfolio Modal - Text -->
 							<p class="mb-5">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Mollitia neque assumenda ipsam nihil,
@@ -375,7 +375,7 @@
 							</div>
 							<!-- Portfolio Modal - Image -->
 							<img class="img-fluid rounded mb-5"
-								src="template/img/portfolio/submarine.png" alt="">
+								src="${baseURL}/img/submarine.png" alt="">
 							<!-- Portfolio Modal - Text -->
 							<p class="mb-5">Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Mollitia neque assumenda ipsam nihil,

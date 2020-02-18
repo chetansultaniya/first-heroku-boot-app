@@ -3,7 +3,7 @@
 	<div class="container d-flex align-items-center flex-column">
 
 		<!-- Masthead Avatar Image -->
-		<img class="masthead-avatar mb-5" src="template/img/avataaars.svg"
+		<img class="masthead-avatar mb-5" src="${baseURL}/img/avataaars.svg"
 			alt="">
 
 		<!-- Masthead Heading -->
