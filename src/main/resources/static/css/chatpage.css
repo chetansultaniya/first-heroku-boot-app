@@ -1,12 +1,30 @@
-body, html {
+/*body, html {
 	height: 100%;
 	margin: 0;
 	background: #7F7FD5;
 	//background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 	//background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 	background: linear-gradient(to bottom, #82ccdd, #65d4d8, #54dac9, #5cdeb0, #78e08f);
+}*/
+.join_alert
+{
+	text-align:center;
+	//border-left: 10px solid yellow;
+	//border-right: 10px solid yellow;
+	//background-color: #65d4d8;
+	opacity:0.8;
+	color:yellow;
+	border-radius: 2px;
 }
-
+.bodyhtml
+{
+	height:100vh;
+	margin: 0;
+	background: #7F7FD5;
+	//background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+	//background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+	background: linear-gradient(to bottom, #82ccdd, #65d4d8, #54dac9, #5cdeb0, #78e08f);
+}
 .chat {
 	margin-top: auto;
 	margin-bottom: auto;

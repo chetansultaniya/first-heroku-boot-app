@@ -43,6 +43,7 @@ public class BaseController {
 	public UserResponse connect(@DestinationVariable String groupid, @RequestParam String username,
 			SimpMessageHeaderAccessor headerAccessor) {
 		headerAccessor.getSessionAttributes().put("username", username);
+		headerAccessor.getSessionAttributes().put("key", groupid);
 		UserResponse userResponse = new UserResponse(username, NEW_USER_JOINED, JOIN, PRIVATE);
 		return userResponse;
 	}

@@ -1,4 +1,4 @@
-<div class="container-fluid h-100">
+<div class="container-fluid bodyhtml">
 	<div class="row justify-content-center h-100">
 		<div class="col-sm-11 col-lg-8 chat">
 			<div class="card">

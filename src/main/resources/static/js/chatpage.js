@@ -2,10 +2,8 @@ var sendURL = "/app";
 var fetchURL = "/queue";
 var securityKey = null;
 var stompClient = null;
-
 function connect()
 {
-	
 	var sockJs = new SockJS('/chetchat');
     stompClient = Stomp.over(sockJs);
     
@@ -13,24 +11,27 @@ function connect()
     securityKey = $('#key').val();
     sendURL = "/app/" + securityKey;
     fetchURL = "/queue/" + securityKey;
-    
-    stompClient.connect({},function(response){
-    	
-    	// code for connection successfully
-    	stompClient.subscribe(fetchURL + '/connect' , function(res){
-    		var obj = JSON.parse(res.body);
-    	});
-    	
-    	stompClient.subscribe(fetchURL + '/message' , function(res){
-    		var obj = JSON.parse(res.body);
-    		displayMessage(obj);
-    	});
-    	
-    },function(error){
-    	// code when not connected
-    	console.log("stomClient() is giving error");
-    });
-    
+    if(securityKey!=undefined)
+    {
+    	stompClient.connect({},function(response){
+        	
+        	sendAlert();
+        	// code for connection successfully
+        	stompClient.subscribe(fetchURL + '/connect' , function(res){
+        		var obj = JSON.parse(res.body);
+        		userAlert(obj);
+        	});
+        	
+        	stompClient.subscribe(fetchURL + '/message' , function(res){
+        		var obj = JSON.parse(res.body);
+        		displayMessage(obj);
+        	});
+        	
+        },function(error){
+        	// code when not connected
+        	console.log("stomClient() is giving error");
+        });
+    } 
 }
 
 function sendMessage()
@@ -41,6 +42,17 @@ function sendMessage()
     }));
     $('#message').val('');
 }
+
+function sendAlert()
+{
+	stompClient.send(sendURL + '/connect', {},$('#name').val());
+}
+
+function userAlert(msg)
+{
+	$('#chatmessage').append("<center><span class='join_alert'>"+msg.name.toUpperCase()+" "+msg.content+"</span></center>");
+}
+
 function displayMessage(msg)
 {
 	if($('#name').val()=== msg.name)
@@ -68,10 +80,10 @@ function displayMessage(msg)
 	
 	
 }
+
 $(document).ready(function(){
 	
 	connect();
-	
 	$('#action_menu_btn').click(function(){
 		$('.action_menu').toggle();
 	});
@@ -86,4 +98,5 @@ $(document).ready(function(){
 	 		$('#send').click();
 	 	}
 	});
+	
 });

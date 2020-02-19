@@ -20,7 +20,7 @@
 		
 		<p class="masthead-subheading font-weight-light mb-0">ChetChat a chat application!!!!</p>
 		<!-- Entry section for chat -->
-		<form action="${baseURL}/chatpage" method="post">
+		<form action="${baseURL}/chatpage" method="post" id="chatBeginForm">
 			<div class="row" id="showchatentry" style="">
 	    		<div class="col-sm-6" style="">
 	    			<div class="input-group input-group-lg mt-3">
@@ -33,7 +33,7 @@
 					</div>
 	    		</div>
 	    		<div class="text-center col-sm-12 mt-3" id="startchatbutton">
-					<button type="submit" class="btn btn-xl btn-outline-light btn-block"> 
+					<button type="submit" onclick="start()"class="btn btn-xl btn-outline-light btn-block"> 
 					<i class="far fa-comment mr-2"></i> Start Chat
 					</button>
 				</div>
