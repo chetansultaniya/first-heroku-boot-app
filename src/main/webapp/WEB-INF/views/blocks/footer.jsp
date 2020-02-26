@@ -29,6 +29,7 @@
 			<!-- Footer About Text -->
 			<div class="col-lg-4">
 				<h4 class="text-uppercase mb-4">About Me</h4>
+				<img src="${baseURL}/img/IMG_3136.JPG" class="rounded" style="width:160px;height:150px;transform:rotate(270deg);margin:10px"> 
 				<p class="lead mb-0">
 					Chetan Sultaniya
 				</p>
